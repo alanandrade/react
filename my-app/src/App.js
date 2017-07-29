@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import HelloWorld from './HelloWorld'; //Nosso primeiro component React
+import Header from './Header';
 
 class App extends Component {
   render() {
-    return <HelloWorld/>;
+    return <div>
+    <HelloWorld/>
+    <Header/>
+    </div>
   }
 }
 
